@@ -1,0 +1,139 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+	text-align: center;
+	word-wrap: break-word;
+	padding: 10px 10px 10px 10px;
+	font-family: Arial, Helvetica, ComicSans;
+	background-color: #778899;
+
+}
+
+h1 {
+	margin-bottom: 50px;
+	font-size: 28px;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+#box {
+	height: 170px;
+	margin: 10px 10px 10px 10px;
+	border: solid black;
+	border-width: 3px 3px 3px 3px;
+	background-color: #48D1CC;
+	padding: 0px;
+}
+#box2 {
+	height: 170px;
+	margin: 10px 10px 10px 10px;
+	border: solid black;
+	border-width: 3px 3px 3px 3px;
+	background-color: #48D1CC;
+	padding: 0px;
+}
+#box3 {
+	height: 170px;
+	margin: 10px 10px 10px 10px;
+	border: solid black;
+	border-width: 3px 3px 3px 3px;
+	background-color: #48D1CC;
+	padding: 0px;
+}
+
+#smallbox {
+	text-align: center;
+	font-family: Arial, Helvetica, ComicSans;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #008B8B;
+	padding: 2px 15px 2px 15px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	position: relative;
+	max-width: 30%;
+	max-height: 25%;
+	left: 70%;
+	top: .2%;
+}
+
+#smallbox2 {
+	text-align: center;
+	font-family: Arial, Helvetica, ComicSans;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #7FFFD4;
+	padding: 2px 15px 2px 15px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	position: relative;
+	max-width: 35%;
+	max-height: 25%;
+	left: 65%;
+	top: .2%;
+}
+#smallbox3 {
+	text-align: center;
+	font-family: Arial, Helvetica, ComicSans;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #AFEEEE;
+	padding: 2px 3px 2px 3px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	position: relative;
+	max-width: 40%;
+	max-height: 25%;
+	left: 60%;
+	top: .2%;
+}
+
+#content{
+	font-family: Arial, Helvetica, ComicSans;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 30px 5px 2px 15px;
+	text-align: left;
+	background-color: #48D1CC;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+/** Desktop **/
+@media (min-width: 992px)
+{.col-lg-4{
+		float: left;
+	}
+	.col-lg-4{
+		width: 33%;
+	}
+}
+
+/** Tablets **/
+@media (min-width: 768px) and (max-width: 991px)
+{.col-md-6, .col-md-12{
+		float: left;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+
+}
+
+/** Mobile **/
+@media (max-width: 767px)
+{.col-xs-12{
+		float: left;
+	}
+	.col-xs-12{
+		width: 100%;
+	}
+}
+
+   
